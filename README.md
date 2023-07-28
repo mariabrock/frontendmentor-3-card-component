@@ -27,8 +27,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](../images/mobile1.png.jpg)
-![](../images/mobile2.png.jpg)
+![](../images/mobile1.png)
+![](../images/mobile2.png)
+![](../images/desktop-3card.png)
 
 ### Links
 
@@ -63,8 +64,6 @@ Fun html:.
 ```
 
 ### Continued development
-
-
 
 ## Author
 
