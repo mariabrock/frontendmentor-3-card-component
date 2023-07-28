@@ -8,31 +8,37 @@ html, body {
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   padding: 5rem;
 }
 
 .sedan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: hsl(31, 77%, 52%);
   color: hsl(0, 0%, 95%);
-  margin-left: 40rem;
   padding: 2rem;
   max-width: 240px;
 }
 
 .suv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: hsl(184, 100%, 22%);
   color: hsl(0, 0%, 95%);
-  margin-left: 40rem;
   padding: 2rem;
   max-width: 240px;
 }
 
 .luxury {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
-  margin-left: 40rem;
   padding: 2rem;
   max-width: 240px;
 }
@@ -41,12 +47,43 @@ button {
   background-color: hsl(0, 0%, 95%);
   font-family: 'Lexend Deca', sans-serif;
   border: none;
-  color: hsl(184, 100%, 22%);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   border-radius: 25px;
+  cursor: pointer;
+}
+
+
+#orange {
+  color: hsl(31, 77%, 52%);
+} 
+
+#orange:hover {
+  background-color: hsl(31, 77%, 52%); 
+  color: hsl(0, 0%, 95%); 
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+#dark-cyan {
+  color: hsl(184, 100%, 22%);
+}
+
+#dark-cyan:hover {
+  background-color: hsl(184, 100%, 22%); 
+  color: hsl(0, 0%, 95%); 
+  border: 2px solid hsl(0, 0%, 95%);
+}
+
+#very-dark {
+  color: hsl(179, 100%, 13%);
+}
+
+#very-dark:hover {
+  background-color: hsl(179, 100%, 13%); 
+  color: hsl(0, 0%, 95%); 
+  border: 2px solid hsl(0, 0%, 95%);
 }
 
 img {
@@ -72,6 +109,12 @@ img {
 }
 
 @media screen and (max-width: 600px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .sedan, .suv, .luxury {
     max-width: 240px;
     margin: 0;
