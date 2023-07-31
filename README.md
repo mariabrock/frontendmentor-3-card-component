@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-Fun html:.
+Fun html:
 
 ```html
 <div class="sedan">
@@ -61,10 +61,36 @@ Fun html:.
       </div>
 ```
 
+Fun css:
+```css
+  .sedan, .suv, .luxury {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    line-height: 1.6;
+    color: hsl(0, 0%, 95%);
+    padding: 2rem;
+    max-width: 240px;
+    height: 400px;
+  }
+
+  .sedan {
+    background-color: hsl(31, 77%, 52%);
+  }
+
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+```
+
 ### Continued development
 
 ## Author
 
-<!-- - Website - [Add your name here](https://www.your-site.com) -->
+- Github - [@mariabrock](https://github.com/mariabrock)
 - Frontend Mentor - [@mariabrock](https://www.frontendmentor.io/profile/mariabrock)
 - LinkedIn - [@mariabrock](https://www.linkedin.com/in/maria-brock/)
