@@ -13,34 +13,27 @@ html, body {
   padding: 5rem;
 }
 
-.sedan {
+.sedan, .suv, .luxury {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: hsl(31, 77%, 52%);
+  justify-content: space-around;
+  line-height: 1.6;
   color: hsl(0, 0%, 95%);
   padding: 2rem;
   max-width: 240px;
+  height: 400px;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
 }
 
 .suv {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: hsl(184, 100%, 22%);
-  color: hsl(0, 0%, 95%);
-  padding: 2rem;
-  max-width: 240px;
 }
 
 .luxury {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-color: hsl(179, 100%, 13%);
-  color: hsl(0, 0%, 95%);
-  padding: 2rem;
-  max-width: 240px;
 }
 
 button {
@@ -55,6 +48,9 @@ button {
   cursor: pointer;
 }
 
+p {
+  color:hsla(0, 0%, 100%, 0.75);
+}
 
 #orange {
   color: hsl(31, 77%, 52%);
@@ -94,6 +90,8 @@ img {
 .header {
   font-family: 'Big Shoulders Display', cursive;
   color: hsl(0, 0%, 95%);
+  margin: 0;
+  padding: 0;
 }
 
 .text {
