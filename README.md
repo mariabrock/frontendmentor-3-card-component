@@ -27,14 +27,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](../images/mobile1.png)
-![](../images/mobile2.png)
-![](../images/desktop-3card.png)
+![](./assets/desktop-3card.png)
+![](./assets/mobile1.png)
+![](./assets/mobile2.png)
+![](./assets/active-state.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repository](https://github.com/mariabrock/frontendmentor-3-card-component)
+- Live Site URL: [Github Pages]()
 
 ## My process
 
@@ -55,10 +56,7 @@ Fun html:.
 <div class="sedan">
         <img src="../images/icon-sedans.svg" alt="" />
         <h1 class="header">Sedans</h1>
-        <p class="text">
-          Choose a sedan for its affordability and excellent fuel economy. Ideal
-          for cruising in the city or on your next road trip.
-        </p>
+        <p class="text">Choose a sedan for its affordability and excellent fuel economy. Ideal  for cruising in the city or on your next road trip.</p>
         <button>Learn More</button>
       </div>
 ```
@@ -69,4 +67,4 @@ Fun html:.
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 - Frontend Mentor - [@mariabrock](https://www.frontendmentor.io/profile/mariabrock)
-<!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
+- LinkedIn - [@mariabrock](https://www.linkedin.com/in/maria-brock/)
